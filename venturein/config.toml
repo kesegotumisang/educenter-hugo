@@ -1,6 +1,6 @@
 ######################## default configuration ####################
-baseURL = "http://examplesite.org"
-title = "Educenter | hugo education template"
+baseURL = "https://venturein.africa"
+title = "ventureinafrica"
 theme = "educenter-hugo"
 # post pagination
 paginate = "6"
@@ -120,7 +120,7 @@ URL = "research"
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.png"
+logo = "images/logo-2.png"
 # Meta data
 description = "This is meta description"
 author = "Themefisher"
