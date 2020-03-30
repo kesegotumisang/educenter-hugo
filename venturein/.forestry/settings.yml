@@ -7,15 +7,8 @@ sections:
 - type: heading
   label: Blog Post
 - type: directory
-  path: ventureinafrica/content/english/blog
+  path: venturein/content/english/blog
   label: Post (en)
-  create: documents
-  match: "**/*"
-  templates:
-  - post
-- type: directory
-  path: ventureinafrica/content/french/blog
-  label: Post (fr)
   create: documents
   match: "**/*"
   templates:
@@ -23,15 +16,8 @@ sections:
 - type: heading
   label: Author
 - type: directory
-  path: ventureinafrica/content/english/author
+  path: venturein/content/english/author
   label: Author (en)
-  create: documents
-  match: "**/*"
-  templates:
-  - author
-- type: directory
-  path: ventureinafrica/content/french/author
-  label: Author (fr)
   create: documents
   match: "**/*"
   templates:
@@ -39,15 +25,8 @@ sections:
 - type: heading
   label: Course
 - type: directory
-  path: ventureinafrica/content/english/course
+  path: venturein/content/english/course
   label: Course (en)
-  create: documents
-  match: "**/*"
-  templates:
-  - course
-- type: directory
-  path: ventureinafrica/content/french/course
-  label: Course (fr)
   create: documents
   match: "**/*"
   templates:
@@ -55,14 +34,14 @@ sections:
 - type: heading
   label: Notice
 - type: directory
-  path: ventureinafrica/content/english/notice
+  path: venturein/content/english/notice
   label: Notice (en)
   create: all
   match: "**/*"
   templates:
   - notice
 - type: directory
-  path: ventureinafrica/content/french/notice
+  path: venturein/content/french/notice
   label: Notice (fr)
   create: all
   match: "**/*"
@@ -71,14 +50,14 @@ sections:
 - type: heading
   label: Teacher
 - type: directory
-  path: ventureinafrica/content/english/teacher
+  path: venturein/content/english/teacher
   label: Teacher (en)
   create: all
   match: "**/*"
   templates:
   - teacher
 - type: directory
-  path: ventureinafrica/content/french/teacher
+  path: venturein/content/french/teacher
   label: Teacher (fr)
   create: all
   match: "**/*"
@@ -87,14 +66,14 @@ sections:
 - type: heading
   label: Event
 - type: directory
-  path: ventureinafrica/content/english/event
+  path: venturein/content/english/event
   label: Event (en)
   create: all
   match: "**/*"
   templates:
   - event
 - type: directory
-  path: ventureinafrica/content/french/event
+  path: venturein/content/french/event
   label: Event (fr)
   create: all
   match: "**/*"
@@ -103,14 +82,14 @@ sections:
 - type: heading
   label: Research
 - type: directory
-  path: ventureinafrica/content/english/research
+  path: venturein/content/english/research
   label: Research (en)
   create: all
   match: "**/*"
   templates:
   - research
 - type: directory
-  path: ventureinafrica/content/french/research
+  path: venturein/content/french/research
   label: Research (fr)
   create: all
   match: "**/*"
@@ -119,14 +98,14 @@ sections:
 - type: heading
   label: Scholarship
 - type: directory
-  path: ventureinafrica/content/english/scholarship
+  path: venturein/content/english/scholarship
   label: Scholarship (en)
   create: all
   match: "**/*"
   templates:
   - scholarship
 - type: directory
-  path: ventureinafrica/content/french/scholarship
+  path: venturein/content/french/scholarship
   label: Scholarship (fr)
   create: all
   match: "**/*"
@@ -135,48 +114,48 @@ sections:
 - type: heading
   label: Others Pages
 - type: directory
-  path: ventureinafrica/content/english/about
+  path: venturein/content/english/about
   label: About (en)
   create: none
   match: "*"
 - type: directory
-  path: ventureinafrica/content/french/about
+  path: venturein/content/french/about
   label: About (fr)
   create: none
   match: "*"
 - type: directory
-  path: ventureinafrica/content/english/contact
+  path: venturein/content/english/contact
   label: Contact (en)
   create: none
   match: "*"
 - type: directory
-  path: ventureinafrica/content/french/contact
+  path: venturein/content/french/contact
   label: Contact (fr)
   create: none
   match: "*"
 - type: directory
-  path: ventureinafrica/content/english/pages
+  path: venturein/content/english/pages
   label: Created Pages (en)
   create: documents
   match: "**/*"
   templates:
   - new-page
 - type: directory
-  path: ventureinafrica/content/french/pages
+  path: venturein/content/french/pages
   label: Created Pages (fr)
   create: all
   match: "**/*"
   templates:
   - new-page
 - type: directory
-  path: ventureinafrica/content/english
+  path: venturein/content/english
   label: All Pages (en)
   create: all
   match: "**/*"
   templates:
   - new-page
 - type: directory
-  path: ventureinafrica/content/french
+  path: venturein/content/french
   label: All Pages (fr)
   create: all
   match: "**/*"
@@ -185,29 +164,29 @@ sections:
 - type: heading
   label: Data
 - type: directory
-  path: ventureinafrica/data/en
+  path: venturein/data/en
   label: Data (en)
   create: all
   match: "**/*"
 - type: directory
-  path: ventureinafrica/data/fr
+  path: venturein/data/fr
   label: Data (fr)
   create: all
   match: "**/*"
 - type: directory
-  path: ventureinafrica/i18n
+  path: venturein/i18n
   label: i18n
   create: documents
   match: "**/*"
 - type: heading
   label: Configuration
 - type: directory
-  path: ventureinafrica
+  path: venturein
   label: Configuration
   create: all
   match: "*.toml"
   new_doc_ext: toml
-upload_dir: ventureinafrica/static/images
+upload_dir: venturein/static/images
 public_path: "/images"
 front_matter_path: ''
 use_front_matter_path: false

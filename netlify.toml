@@ -1,6 +1,6 @@
 [build]
-  publish = "ventureinafrica/public"
-  command = "cd ventureinafrica && hugo --gc --themesDir ../.."
+  publish = "venturein/public"
+  command = "cd venturein && hugo --gc --themesDir ../.."
   
 [build.environment]
   HUGO_VERSION = "0.62.2"
