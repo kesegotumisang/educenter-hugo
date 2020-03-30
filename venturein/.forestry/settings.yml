@@ -13,13 +13,6 @@ sections:
   match: "**/*"
   templates:
   - post
-- type: directory
-  path: exampleSite/content/french/blog
-  label: Post (fr)
-  create: documents
-  match: "**/*"
-  templates:
-  - post
 - type: heading
   label: Author
 - type: directory
@@ -29,25 +22,11 @@ sections:
   match: "**/*"
   templates:
   - author
-- type: directory
-  path: exampleSite/content/french/author
-  label: Author (fr)
-  create: documents
-  match: "**/*"
-  templates:
-  - author
 - type: heading
   label: Course
 - type: directory
   path: exampleSite/content/english/course
   label: Course (en)
-  create: documents
-  match: "**/*"
-  templates:
-  - course
-- type: directory
-  path: exampleSite/content/french/course
-  label: Course (fr)
   create: documents
   match: "**/*"
   templates:
