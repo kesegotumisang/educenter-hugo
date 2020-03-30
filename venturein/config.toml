@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://venturein.africa"
+baseURL = ""
 title = "ventureinafrica"
 theme = "educenter-hugo"
 # post pagination
@@ -123,11 +123,11 @@ URL = "research"
 logo = "images/logo-2.png"
 # Meta data
 description = "This is meta description"
-author = "Themefisher"
+author = "Yandile Nuku"
 # contact info
-address = "9567 Turner Trace Apt. BC C3G8A4"
-mobile = "+211234565523"
-email = "info@educenter.com"
+address = ""
+mobile = "+267 76 752 030"
+email = "yandile@giqmedia.co.bw"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # Google Analitycs
